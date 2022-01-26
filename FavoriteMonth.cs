@@ -34,7 +34,7 @@ namespace DaysOfMonth
         // method for favorite month 
         private int MonthFav()
         {
-            //converting to int and returning
+            //converting to int and returningd
             Console.WriteLine("Write your favorite month 1 to 12 to terminate or 0 to terminate: ");
             string monthInput = Console.ReadLine();
             month = int.Parse(monthInput);
